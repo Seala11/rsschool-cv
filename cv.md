@@ -19,12 +19,18 @@ I've always been curious about software development and desing, so this year I'v
 
 ##  SKILLS
 
-1./ **HTML**
-2./ **CSS (Sass)**
-3./ **JavaScript**
-4./ **Gulp**
-5./ **Git (GitHub)**
-6./ **Figma** 
+1./ **HTML**  
+
+2./ **CSS (Sass)**  
+
+3./ **JavaScript**  
+
+4./ **Gulp**  
+
+5./ **Git (GitHub)**  
+
+6./ **Figma**  
+
 
 ##  CODE EXAMPLE
 
@@ -53,14 +59,14 @@ var searchInsert = function(nums, target) {
 
 ## EXPERIENCE
 
-Below you will find projects I`ve completed that showcase my skills and general background in development.
+Below you will find projects I've completed that showcase my skills and general background in development.
 
 1./ **[Resume landing page](#https://slovoo.github.io/resume/ "view the project")**
 Web designer resume landing page, made with HTML and CSS, deployed on github.
 Here you can check the [repo](https://github.com/Slovoo/resume "resume landing page repo").
 
 2./ **[Frontend mentor projects](#https://frontend-mentor-challenges11.netlify.app/ "view the project")**
-Some of the Fronted Mentor projects that I`ve made.
+Some of the Fronted Mentor projects that I've made.
 Here you can check the [repo](https://github.com/Seala11/Frontend-Mentor-Projects "fronted mentor repo").
 
 3./ **[Portfolio template](#https://portfolio-template-seala.pages.dev/ "view the project")**
@@ -81,7 +87,10 @@ Here you can check the [repo](https://github.com/Seala11/Frontend-Mentor-Project
 
 ##  LANGUAGES
 
-1./ **English** - Upper-Intermediate/Advanced
-2./ **Spanish** - Upper-Intermediate/Advanced
-3./ **Russian** - native
+1./ **English** - Upper-Intermediate/Advanced  
+
+2./ **Spanish** - Upper-Intermediate/Advanced  
+
+3./ **Russian** - native  
+
 4./ **Belarussian** - native
