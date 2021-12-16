@@ -61,26 +61,32 @@ var searchInsert = function(nums, target) {
 
 Below you will find projects I've completed that showcase my skills and general background in development.
 
-1./ **Resume landing page**
-Web designer resume landing page, made with HTML and CSS, deployed on github.
+1./ **Resume landing page**  
+
+Web designer resume landing page, made with HTML and CSS, deployed on github.  
+
 Here you can check the [project][1] and its [repo][2].  
 
 [1]: https://slovoo.github.io/resume/ "view the project"
 [2]: https://github.com/Slovoo/resume "resume landing page repo"
 
-2./ **Frontend mentor projects**
-Some of the Fronted Mentor projects that I've made.
+2./ **Frontend mentor projects**  
+
+Some of the Fronted Mentor projects that I've made.  
+
 Here you can check the [project][3] and its [repo][4].  
 
 [3]: https://frontend-mentor-challenges11.netlify.app/ "view the project"
 [4]: https://github.com/Seala11/Frontend-Mentor-Projects "fronted mentor repo"
 
-3./ **Portfolio template**
-Made with HTML, SCSS, Gulp, deployed with Cloudflare Pages
+3./ **Portfolio template**  
+
+Made with HTML, SCSS, Gulp, deployed with Cloudflare Pages  
+
 Here you can check the [project][5] and its [repo][6].  
 
 [5]: https://portfolio-template-seala.pages.dev/ "view the project"
-[6]: https://github.com/Seala11/Frontend-Mentor-Projects "portfolio repo"  
+[6]: https://github.com/Seala11/Portfolio-template-scss "portfolio repo"  
 
 ##  EDUCATION
 
