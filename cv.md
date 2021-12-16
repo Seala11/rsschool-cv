@@ -92,9 +92,9 @@ Here you can check the [project][5] and its [repo][6].
 
 / 2021 / Udemy **JavaScript - The Complete Guide 2022 (Beginner + Advanced)** course
 
-/ 2021 / freeCodeCamp **JavaScript Algorithms and Data Structures** course. View the [certificate](#https://www.freecodecamp.org/certification/seala/javascript-algorithms-and-data-structures "click to check the certificate").
+/ 2021 / freeCodeCamp **JavaScript Algorithms and Data Structures** course. View the [certificate](https://www.freecodecamp.org/certification/seala/javascript-algorithms-and-data-structures "click to check the certificate").
 
-/ 2021 / freeCodeCamp **Responsive Web Design** course. View the [certificate](#https://www.freecodecamp.org/certification/seala/responsive-web-design "click to check the certificate").
+/ 2021 / freeCodeCamp **Responsive Web Design** course. View the [certificate](https://www.freecodecamp.org/certification/seala/responsive-web-design "click to check the certificate").
 
 / 2014 - 2019 / Philosophy and Social sciences, **Belarusian State University**.
 
