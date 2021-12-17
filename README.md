@@ -1,1 +1,1 @@
-# rsschool-cv
+https://seala11.github.io/rsschool-cv/
