@@ -8,11 +8,11 @@ const navHandler = () => {
 
   if (visibility === 'false') {
     navList.setAttribute('data-visible', true);
-    navToggleButton.setAttribute('aria-expended', true);
+    navToggleButton.setAttribute('aria-expanded', true);
     navToggleButton.innerHTML = `Close`;
   } else {
     navList.setAttribute('data-visible', false);
-    navToggleButton.setAttribute('aria-expended', false);
+    navToggleButton.setAttribute('aria-expanded', false);
     navToggleButton.innerHTML = `Menu`;
   }
 };
