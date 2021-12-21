@@ -256,7 +256,7 @@ ul {
 /* contacts */
 
 .section__contacts {
-  width: 30%;
+  width: 40%;
   background-color: var(--white);
 }
 
@@ -334,7 +334,7 @@ ul {
   }
   .section__about,
   .section__skills {
-      margin-top: -2rem;
+    margin-top: -2rem;
   }
 
   .section__skills {
@@ -374,6 +374,8 @@ ul {
   }
 
   .hero__img {
+    width: 12.5rem;
+    height: 12.5rem;
     margin: 2rem 0;
   }
 
@@ -423,11 +425,11 @@ ul {
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.3rem;
   }
 
   .hero__container {
-    max-height: 90vh;
+    height: 90vh;
   }
 
   .section {
