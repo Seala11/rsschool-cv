@@ -185,6 +185,8 @@ ul {
 }
 
 .hero__img {
+  width: 12.5rem;
+  height: 12.5rem;
   border-radius: 50%;
 }
 
@@ -404,8 +406,6 @@ ul {
   }
 
   .hero__img {
-    width: 12.5rem;
-    height: 12.5rem;
     margin: 2rem 0;
   }
 
