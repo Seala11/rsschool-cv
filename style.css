@@ -220,6 +220,10 @@ ul {
     text-transform: uppercase;
 }
 
+.section-about__text {
+    margin-bottom: 0.8rem;
+}
+
 /* about */
 
 .section__about {
