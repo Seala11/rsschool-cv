@@ -115,6 +115,7 @@ ul {
   margin-inline-end: 0.5em;
   font-size: 1.4rem;
   font-weight: 400;
+  letter-spacing: 1px;
   color: var(--black-primary);
 }
 
@@ -128,11 +129,9 @@ ul {
 }
 
 .text--italic {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  font-style: italic;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 /* navigation */
@@ -405,6 +404,10 @@ ul {
     margin: 0.5rem 0;
   }
 
+  .hero__title {
+    align-items: center;
+}
+
   .hero__img {
     margin: 2rem 0;
   }
@@ -412,7 +415,8 @@ ul {
   .mobile-nav-toggle {
     display: block;
     position: fixed;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     background-color: transparent;
     border: 0;
