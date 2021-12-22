@@ -216,6 +216,10 @@ ul {
   background-color: var(--black-lighter);
 }
 
+.link--uppercase {
+    text-transform: uppercase;
+}
+
 /* about */
 
 .section__about {
