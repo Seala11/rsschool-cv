@@ -217,11 +217,11 @@ ul {
 }
 
 .link--uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .section-about__text {
-    margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 /* about */
@@ -257,14 +257,14 @@ ul {
 /* code */
 
 .section__code {
-    background-color: var(--white);
-    padding-bottom: 0;
+  background-color: var(--white);
+  padding-bottom: 0;
 }
 
 .code__element {
   max-width: 85vw;
   padding: 0 0.8rem 0;
-  margin: 0;
+  margin: 0 auto;
   margin-top: 1rem;
 }
 
@@ -452,7 +452,13 @@ ul {
     right: 3rem;
   }
 
+  .section__code {
+    background-color: var(--bg-light);
+    padding-bottom: 4rem;
+  }
+
   .code__element {
+    background-color: var(--white);
     overflow-x: scroll;
   }
 
