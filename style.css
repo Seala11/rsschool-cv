@@ -152,7 +152,6 @@ ul {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 3.125rem;
-  /* text-transform: uppercase; */
   text-decoration: none;
   color: var(--black-primary);
 }
@@ -214,10 +213,6 @@ ul {
   width: 16px;
   height: 2px;
   background-color: var(--black-lighter);
-}
-
-.link--uppercase {
-  text-transform: uppercase;
 }
 
 .section-about__text {
@@ -382,6 +377,7 @@ ul {
 
   .text--hero {
     margin-left: 4px;
+    font-size: 1.5rem;
   }
 
   .section__about,
