@@ -1,12 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span>Menu</span>
+        </button>
+        <ul class="nav__list" data-visible="false" id="primary-nav">
+          <li class="nav-list__item">
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav__link" href="#code">Code</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav__link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav__link" href="#education">Education</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main main__container">
+      <section class="hero">
+        <div class="container hero__container">
+          <img
+            class="hero__img"
+            src="./assets/img/cv-image.jpg"
+            alt="the portret of Hanna"
+            width="200"
+            height="200"
+          />
+          <div class="hero__title">
+            <h1>Hanna Papova</h1>
+            <h1 class="text--title text--hero">Junior Front-End Developer</h1>
+          </div>
+        </div>
+      </section>
+
+      <div class="container main__container">
+        <section class="section section__about" id="about">
+          <h2>
+            <span class="section__line"></span>About
+            <span class="about__me_title">Me</span>
+          </h2>
+          <p class="section-about__text">
+            I've always been curious about software development and desing, so
+            this year I've decided to make a big chenge in my life and try
+            myself in web development area.
+          </p>
+          <p class="section-about__text">
+            Since that time I've read through as much material as one can only
+            possibly go through, along with making pet projects and taking
+            classes at freeCodeCamp, Udemy and RS school. Currently working as
+            an office manager my furthure goal is to land a job as a junior
+            front-end developer.
+          </p>
+          <p>
+            Furthermore, taking in account all my prior experience, I would
+            describe myself as a fast learner and great team member with
+            analytical and creative thinking.
+          </p>
+        </section>
+
+        <section class="section section__skills" id="skills">
+          <h2><span class="section__line"></span>Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__li"><span aria-hidden="true">01</span>HTML</li>
+            <li class="skills__li">
+              <span aria-hidden="true">02</span>CSS / Sass
+            </li>
+            <li class="skills__li">
+              <span aria-hidden="true">03</span>JavaScript
+            </li>
+            <li class="skills__li">
+              <span aria-hidden="true">04</span>Git (GitHub)
+            </li>
+            <li class="skills__li"><span aria-hidden="true">05</span>Figma</li>
+          </ul>
+        </section>
+
+        <section class="section section__code" id="code">
+          <h2><span class="section__line"></span>Code Example</h2>
+          <pre
+            class="code__element"
+          ><code>var searchInsert = function(nums, target) { 
+    let left = -1 
+    let right = nums.length 
+    let middle; 
+    while (right - left > 1) { 
+        middle = Math.floor((left + right)/2) 
+        if (nums[middle] === target) { 
+            return middle 
+        }else if (nums[middle] > target) {
+            right = middle 
+        }else if (nums[middle] &lt; target) {
+            left = middle 
+        } 
+    } 
+return right; 
+};
+</code></pre>
+        </section>
+
+        <section class="section section__projects" id="projects">
+          <h2><span class="section__line"></span>Projects</h2>
+          <p class="text--italic">
+            Below you will find projects I've completed that showcase my skills
+            and general background in development.
+          </p>
+          <ul class="projects__list">
+            <li class="projects__li">
+              <h3 class="text--title"><span class="text--date">01</span> Resume landing page</h3>
+              <p>
+                Web designer resume landing page, made with HTML and CSS,
+                deployed on github.
+              </p>
+              <p>
+                Here you can check the
+                <a href="https://slovoo.github.io/resume/" class="section__link"
+                  >project</a
+                >
+                and its
+                <a href="https://github.com/Slovoo/resume" class="section__link"
+                  >repo</a
+                >.
+              </p>
+            </li>
+            <li class="projects__li">
+              <h3 class="text--title">
+                <span class="text--date">02</span> Frontend mentor projects
+              </h3>
+              <p>Some of the Fronted Mentor projects that I've made.</p>
+              <p>
+                Here you can check the
+                <a
+                  href="https://frontend-mentor-challenges11.netlify.app/"
+                  class="section__link"
+                  >project</a
+                >
+                and its
+                <a
+                  href="https://github.com/Seala11/Frontend-Mentor-Projects"
+                  class="section__link"
+                  >repo</a
+                >.
+              </p>
+            </li>
+            <li class="projects__li">
+              <h3 class="text--title"><span class="text--date">03</span> Portfolio template</h3>
+              <p>Made with HTML, SCSS, Gulp, deployed with Cloudflare Pages</p>
+              <p>
+                Here you can check the
+                <a
+                  href="https://portfolio-template-seala.pages.dev"
+                  class="section__link"
+                  >project</a
+                >
+                and its
+                <a
+                  href="https://github.com/Seala11/Portfolio-template-scss"
+                  class="section__link"
+                  >repo</a
+                >.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section section__education" id="education">
+          <h2><span class="section__line"></span>Education</h2>
+          <ul class="education__list">
+            <li class="eduction__li">
+              <span class="text--date">2021</span> Udemy JavaScript - The
+              Complete Guide 2022 (Beginner + Advanced) course
+            </li>
+            <li class="eduction__li">
+              <span class="text--date">2021</span> freeCodeCamp
+              <a
+                href="https://www.freecodecamp.org/certification/seala/javascript-algorithms-and-data-structures"
+                class="section__link"
+                >JavaScript Algorithms and Data Structures</a
+              >
+              course.
+            </li>
+            <li class="eduction__li">
+              <span class="text--date">2021</span> freeCodeCamp
+              <a
+                href="https://www.freecodecamp.org/certification/seala/responsive-web-design"
+                class="section__link"
+                >Responsive Web Design</a
+              >
+              course.
+            </li>
+            <li class="eduction__li">
+              <span class="text--date">2014 - 2019</span> Philosophy and Social
+              sciences, Belarusian State University.
+            </li>
+          </ul>
+        </section>
+
+        <section class="section section__languages" id="languages">
+          <h2><span class="section__line"></span>Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__li">
+              <span class="text--title">English:</span>
+              Upper-Intermediate/Advanced
+            </li>
+            <li class="languages__li">
+              <span class="text--title">Spanish:</span>
+              Upper-Intermediate/Advanced
+            </li>
+            <li class="languages__li">
+              <span class="text--title">Russian:</span> Native
+            </li>
+            <li class="languages__li">
+              <span class="text--title">Belarussian:</span> Native
+            </li>
+          </ul>
+        </section>
+
+        <section class="section section__contacts" id="contacts">
+          <h2><span class="section__line"></span>Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__li">
+              <span class="text--title">Phone number:</span>
+              +56956933112
+            </li>
+            <li class="contacts__li">
+              <span class="text--title">Email:</span>
+              hannapapova.v@gmail.com
+            </li>
+            <li class="contacts__li">
+              <span class="text--title">Discord:</span>
+              Hanna Papova (@Seala11)
+            </li>
+            <li class="contacts__li">
+              <span class="text--title">GitHub:</span>
+              <a
+                href="https://github.com/Seala11"
+                class="section__link"
+                >@Seala11</a
+              >
+            </li>
+            <li class="contacts__li">
+              <span class="text--title">LinkdIn:</span>
+
+              <a
+                href="https://www.linkedin.com/in/hanna-papova-56a0776b/"
+                class="section__link"
+                >Hanna Papova</a
+              >
+            </li>
+          </ul>
+        </section>
+        <div class="section section__scroll">
+          <button class="scroll__button" id="scroll__button">Go home</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer-container__rights">
+            <p class="footer__rights">© 2022</p>
+            <a href="https://github.com/Seala11" class="footer__git">Seala11</a>
+          </div>
+          <a href="https://rs.school/js/" class="footer__rss"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
