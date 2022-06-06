@@ -3,6 +3,7 @@
   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf');
   font-weight: 400;
 }
+
 @font-face {
   font-family: 'Open Sans';
   src: url('assets/fonts/Open_Sans/OpenSans-SemiBold.ttf');
@@ -82,7 +83,7 @@ h1 {
   color: var(--white);
 }
 
-h2 {
+.section__title {
   font-family: 'Playfair', serif;
   font-weight: 400;
   font-size: 2.25rem;
@@ -236,6 +237,10 @@ ul {
 .section__skills {
   width: 30%;
   background-color: var(--white);
+}
+
+.section__title--skills {
+  margin-bottom: 0;
 }
 
 .skills__li {
