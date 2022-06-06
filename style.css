@@ -432,6 +432,7 @@ ul {
 
   .text--hero {
     margin-inline-end: 0;
+    text-align: center;
   }
 
   .hero__img {
@@ -502,6 +503,7 @@ ul {
 @media (max-width: 500px) {
   h1 {
     font-size: 2.3rem;
+    text-align: center;
   }
 
   .hero__container {
